@@ -1,0 +1,1337 @@
+{
+    "game":"Borderlands 2",
+    "areas":
+	[
+		{
+			"name":"BaseGame",
+			"maps":
+			[
+				{
+					"name":"BaseGame - Multiple Locations",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Loot Midget", "rate":"100% 50% 50%", "mission":"", "options":"BaseGame|VeryRareEnemy" },
+						{ "type":"Enemy", "name":"Chubby/Tubby", "rate":"100% 50% 50%", "mission":"", "options":"BaseGame|VeryRareEnemy" },
+						{ "type":"Enemy", "name":"GOD-liath", "rate":"50% 50%", "mission":"", "options":"BaseGame|EvolvedEnemy" },
+						{ "type":"Enemy", "name":"Ultimate Badass Varkid", "rate":"100% 50% 50% 50% 50%", "mission":"", "options":"BaseGame|VeryRareEnemy|EvolvedEnemy" },
+						{ "type":"Enemy", "name":"Vermivorous the Invincible", "rate":"100% 100% 100% 100% 50% 50% 50% 50% 50% 50% 50%", "mission":"", "options":"BaseGame|VeryRareEnemy|Raid|EvolvedEnemy" }
+					]
+				},
+				{
+					"name":"Windshear Waste",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Knuckle Dragger", "rate":"15%", "mission":"Main Story", "options":"BaseGame|UniqueEnemy" }
+					]
+				},
+				{
+					"name":"Southern Shelf",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"This Town Ain't Big Enough", "giver":"Hammerlock", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Shielded Favors", "giver":"Hammerlock", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Bad Hair Day (Turn in Hammerlock)", "giver":"Hammerlock", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Bad Hair Day (Turn in Claptrap)", "giver":"Hammerlock", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Handsome Jack Here!", "giver":"ECHO Recorder", "options":"BaseGame|ShortMission" },
+						{ "type":"Enemy", "name":"Boom", "rate":"15%", "mission":"Main Story", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Bewm", "rate":"15%", "mission":"Main Story", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Captain Flynt", "rate":"33% 33% 33%", "mission":"Main Story", "options":"BaseGame|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Southern Shelf - Bay",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Symbiosis", "giver":"Hammerlock", "options":"BaseGame|LongMission" },
+						{ "type":"Enemy", "name":"Midgemong", "rate":"33%", "mission":"Symbiosis", "options":"BaseGame|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Sanctuary",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Claptrap's Secret Stash", "giver":"Claptrap", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Rock, Paper, Genocide: Fire Weapons!", "giver":"Marcus", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Rock, Paper, Genocide: Shock Weapons!", "giver":"Marcus", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Rock, Paper, Genocide: Corrosive Weapons!", "giver":"Marcus", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Rock, Paper, Genocide: Slag Weapons!", "giver":"Marcus", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Do No Harm", "giver":"Zed", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Medical Mystery", "giver":"Zed", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Medical Mystery: X-Com-municate", "giver":"Zed", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Name Game", "giver":"Hammerlock", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Assassinate the Assassins", "giver":"Bounty Board", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Cult Following: Eternal Flame", "giver":"Lilith", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"In Memoriam", "giver":"Lilith", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Splinter Group", "giver":"Tannis", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Mighty Morphin'", "giver":"Hammerlock", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Mine, All Mine", "giver":"Lilith", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Good, the Bad, and the Mordecai", "giver":"Bounty Board", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Won't Get Fooled Again", "giver":"Marshall Friedman", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Claptrap's Birthday Bash!", "giver":"Claptrap", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Slap-Happy", "giver":"Hammerlock", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Hidden Journals", "giver":"Tannis", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Torture Chairs", "giver":"Tannis", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Overlooked: Medicine Man", "giver":"Scooter", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Clan War: Starting the War", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Safe and Sound (Turn in Marcus)", "giver":"Marcus", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Safe and Sound (Turn in Moxxi)", "giver":"Marcus", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Perfectly Peaceful", "giver":"Hammerlock", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Cold Shoulder", "giver":"Scooter", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Swallowed Whole", "giver":"Scooter", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Doctor's Orders", "giver":"Tannis", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Animal Rights", "giver":"Mordecai", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Rakkaholics Anonymous (Turn in Mordecai)", "giver":"Mordecai", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Rakkaholics Anonymous (Turn in Moxxi)", "giver":"Mordecai", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Poetic License", "giver":"Scooter", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Rocko's Modern Strife", "giver":"Brick", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Bane", "giver":"ECHO Recorder", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Hell Hath No Fury", "giver":"Moxxi", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Home Movies", "giver":"Lilith", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Bearer of Bad News", "giver":"Mordecai", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"BFFs", "giver":"Sam Matthews", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Demon Hunter", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Monster Mash (Part 1)", "giver":"Zed", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Monster Mash (Part 2)", "giver":"Zed", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Chosen One", "giver":"Marcus", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Capture the Flags", "giver":"Brick", "options":"BaseGame|VeryLongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Monster Mash (Part 3)", "giver":"Zed", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"This Just In", "giver":"Mordecai", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"You. Will. Die. (Seriously.)", "giver":"Tannis", "options":"BaseGame|ShortMission|Raid" },
+						{ "type":"Enemy", "name":"Jim Kepler", "rate":"50%", "mission":"BFFs", "options":"BaseGame|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Daisy", "rate":"50%", "mission":"Poetic License", "options":"BaseGame|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Barlo Gutter", "rate":"50%", "mission":"Won't Get Fooled Again", "options":"BaseGame|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Other", "name":"Michael Mamaril", "rate":"100%", "options":"BaseGame|Miscellaneous" },
+						{ "type":"Other", "name":"Tip Moxxi", "rate":"100%", "options":"BaseGame|Miscellaneous" }
+					]
+				},
+				{
+					"name":"Three Horns - Divide",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Savage Lee", "rate":"15%", "mission":"", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Boll", "rate":"15%", "mission":"In Memoriam", "options":"BaseGame|UniqueEnemy" }
+					]
+				},
+				{
+					"name":"Three Horns - Valley",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"No Vacancy", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Neither Rain nor Sleet nor Skags", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Ice Man Cometh", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Enemy", "name":"Doc Mercy", "rate":"15%", "mission":"Medical Mystery", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Bad Maw", "rate":"15%", "mission":"Main Story", "options":"BaseGame|UniqueEnemy" }
+					]
+				},
+				{
+					"name":"Southpaw Steam & Power",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Assassin Wot", "rate":"15%", "mission":"Assassinate the Assassins", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Assassin Oney", "rate":"15%", "mission":"Assassinate the Assassins", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Assassin Reeth", "rate":"33%", "mission":"Assassinate the Assassins", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Enemy", "name":"Assassin Rouf", "rate":"33%", "mission":"Assassinate the Assassins", "options":"BaseGame|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Frostburn Canyon",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Cult Following: False Idols", "giver":"Incinerator Clayton", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Cult Following: Lighting the Match", "giver":"Incinerator Clayton", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Cult Following: The Enkindling", "giver":"Incinerator Clayton", "options":"BaseGame|LongMission" },
+						{ "type":"Enemy", "name":"Scorch", "rate":"15%", "mission":"Cult Following: False Idols", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Incinerator Clayton", "rate":"33%", "mission":"Cult Following: The Enkindling", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Enemy", "name":"Spycho", "rate":"33%", "mission":"Monster Mash (Part 3)", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Other", "name":"Frostburn Canyon Cave Pool", "rate":"100%", "options":"BaseGame|Miscellaneous" }
+					]
+				},
+				{
+					"name":"The Dust",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Too Close For Missiles", "giver":"Loggins", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Positive Self Image", "giver":"Ellie", "options":"BaseGame|VehicleMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Clan War: First Place", "giver":"Mick Zaford", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Clan War: Reach the Dead Drop", "giver":"Jimbo Hodunk", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Clan War: Trailer Trashing", "giver":"Steve", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Clan War: Wakey Wakey", "giver":"Jimbo Hodunk", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Clan War: Zafords vs. Hodunks (Kill Hodunks)", "giver":"Ellie", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Clan War: Zafords vs. Hodunks (Kill Zafords)", "giver":"Ellie", "options":"BaseGame|ShortMission" },
+						{ "type":"Enemy", "name":"The Black Queen", "rate":"33% 33%", "mission":"", "options":"BaseGame|SlowEnemy|RareEnemy" },
+						{ "type":"Enemy", "name":"Shirtless Man", "rate":"50%", "mission":"Too Close For Missiles", "options":"BaseGame|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Mobley", "rate":"33%", "mission":"The Good, the Bad, and the Mordecai", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Enemy", "name":"Gettle", "rate":"33%", "mission":"The Good, the Bad, and the Mordecai", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Enemy", "name":"Tector Hodunk", "rate":"15%", "mission":"Clan War: Zafords vs. Hodunks (Kill Hodunks)", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Mick Zaford", "rate":"15%", "mission":"Clan War: Zafords vs. Hodunks (Kill Zafords)", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"McNally", "rate":"15%", "mission":"The Bane", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Other", "name":"What's In The Box?", "rate":"100%", "options":"BaseGame|Miscellaneous" }
+					]
+				},
+				{
+					"name":"Lynchwood",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"3:10 to Kaboom", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Breaking the Bank", "giver":"Bounty Board", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Showdown", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Animal Rescue: Medicine", "giver":"Dukino", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Animal Rescue: Food", "giver":"Dukino", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Animal Rescue: Shelter", "giver":"Dukino", "options":"BaseGame|ShortMission" },
+						{ "type":"Enemy", "name":"Mad Dog", "rate":"33%", "mission":"3:10 to Kaboom", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Enemy", "name":"The Sheriff of Lynchwood", "rate":"15%", "mission":"Showdown", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Deputy Winger", "rate":"15%", "mission":"Showdown", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Dukino's Mom", "rate":"33%", "mission":"Demon Hunter", "options":"BaseGame|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Bloodshot Stronghold",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Out of Body Experience (Turn in Marcus)", "giver":"Loader #1340 AI Core", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Out of Body Experience (Turn in Dr. Zed)", "giver":"Loader #1340 AI Core", "options":"BaseGame|LongMission" },
+						{ "type":"Enemy", "name":"Mad Mike", "rate":"33%", "mission":"Main Story", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Enemy", "name":"Loader #1340", "rate":"50% 50%", "mission":"Out of Body Experience", "options":"BaseGame|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Lee", "rate":"15%", "mission":"Splinter Group", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Dan", "rate":"15%", "mission":"Splinter Group", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Ralph", "rate":"15%", "mission":"Splinter Group", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Mick", "rate":"15%", "mission":"Splinter Group", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Flinter", "rate":"15%", "mission":"Splinter Group", "options":"BaseGame|UniqueEnemy" }
+					]
+				},
+				{
+					"name":"Tundra Express",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"No Hard Feelings", "giver":"ECHO Recorder", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"You Are Cordially Invited: Party Prep", "giver":"Tiny Tina", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"You Are Cordially Invited: RSVP", "giver":"Tiny Tina", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"You Are Cordially Invited: Tea Party", "giver":"Tiny Tina", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Pretty Good Train Robbery", "giver":"Tiny Tina", "options":"BaseGame|ShortMission" },
+						{ "type":"Enemy", "name":"Madame Von Bartlesby", "rate":"15%", "mission":"You Are Cordially Invited: Party Prep", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Flesh-Stick", "rate":"50% 50%", "mission":"You Are Cordially Invited: RSVP", "options":"BaseGame|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Mutated Badass Varkid", "rate":"50%", "mission":"Mighty Morphin'", "options":"BaseGame|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Prospector Zeke", "rate":"33%", "mission":"Mine, All Mine", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Other", "name":"Tundra Express Snowman Head", "rate":"100%", "options":"BaseGame|Miscellaneous" }
+					]
+				},
+				{
+					"name":"End of the Line",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Wilhelm", "rate":"15%", "mission":"Main Story", "options":"BaseGame|UniqueEnemy" }
+					]
+				},
+				{
+					"name":"The Fridge",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Note for Self-Person", "giver":"ECHO Recorder", "options":"BaseGame|ShortMission" },
+						{ "type":"Enemy", "name":"Laney White", "rate":"15%", "mission":"The Cold Shoulder", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Sinkhole", "rate":"33%", "mission":"Swallowed Whole", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Enemy", "name":"Shorty", "rate":"33%", "mission":"Swallowed Whole", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Enemy", "name":"Smash-Head", "rate":"33%", "mission":"Note for Self-Person", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Enemy", "name":"Rakkman", "rate":"33%", "mission":"The Cold Shoulder", "options":"BaseGame|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Fink's Slaughterhouse",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Bandit Slaughter: Round 1", "giver":"Fink", "options":"BaseGame|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Bandit Slaughter: Round 2", "giver":"Fink", "options":"BaseGame|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Bandit Slaughter: Round 3", "giver":"Fink", "options":"BaseGame|LongMission|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Bandit Slaughter: Round 4", "giver":"Fink", "options":"BaseGame|LongMission|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Bandit Slaughter: Round 5", "giver":"Fink", "options":"BaseGame|VeryLongMission|Slaughter" }
+					]
+				},
+				{
+					"name":"The Highlands - Outwash",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Old Slappy", "rate":"15%", "mission":"Slap-Happy", "options":"BaseGame|UniqueEnemy" }
+					]
+				},
+				{
+					"name":"The Highlands",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Arms Dealing", "giver":"Bounty Board", "options":"BaseGame|VehicleMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Stalker of Stalkers", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Best Mother's Day Ever", "giver":"Taggart's Gift (Stalker drop)", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Overlooked: Shields Up", "giver":"Karima", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Overlooked: This Is Only a Test", "giver":"Karima", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Hyperion Contract #873", "giver":"Bounty Board", "options":"BaseGame|LongMission" },
+						{ "type":"Enemy", "name":"Henry", "rate":"15%", "mission":"Best Mother's Day Ever", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Requisition Officer", "rate":"50% 50%", "mission":"The Overlooked: Medicine Man", "options":"BaseGame|LongMission|UniqueEnemy|MissionLocation" }
+					]
+				},
+				{
+					"name":"The Holy Spirits",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Clan War: End of the Rainbow", "giver":"ECHO Recorder", "options":"BaseGame|ShortMission" },
+						{ "type":"Enemy", "name":"Bagman", "rate":"50%", "mission":"Clan War: End of the Rainbow", "options":"BaseGame|ShortMission|UniqueEnemy|MissionLocation" }
+					]
+				},
+				{
+					"name":"Caustic Caverns",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Minecart Mischief", "giver":"Old Echo", "options":"BaseGame|LongMission" },
+						{ "type":"Enemy", "name":"Badass Creeper", "rate":"50%", "mission":"", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Enemy", "name":"Blue", "rate":"15%", "mission":"Safe and Sound", "options":"BaseGame|UniqueEnemy" }
+					]
+				},
+				{
+					"name":"Wildlife Exploitation Preserve",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Loot Midget (Doctor's Orders)", "rate":"15%", "mission":"Doctor's Orders", "options":"BaseGame|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Tumbaa", "rate":"33%", "mission":"", "options":"BaseGame|RareEnemy" },
+						{ "type":"Enemy", "name":"Pimon", "rate":"33%", "mission":"", "options":"BaseGame|RareEnemy" },
+						{ "type":"Enemy", "name":"Son of Mothrakk", "rate":"100%", "mission":"", "options":"BaseGame|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Natural Selection Annex",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Creature Slaughter: Round 1", "giver":"Captain Cabrera", "options":"BaseGame|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Creature Slaughter: Round 2", "giver":"Captain Cabrera", "options":"BaseGame|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Creature Slaughter: Round 3", "giver":"Captain Cabrera", "options":"BaseGame|LongMission|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Creature Slaughter: Round 4", "giver":"Captain Cabrera", "options":"BaseGame|LongMission|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Creature Slaughter: Round 5", "giver":"Captain Cabrera", "options":"BaseGame|VeryLongMission|Slaughter" }
+					]
+				},
+				{
+					"name":"Thousand Cuts",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Shoot This Guy in the Face", "giver":"Face McShooty", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Defend Slab Tower", "giver":"Rocko", "options":"BaseGame|ShortMission" },
+						{ "type":"Enemy", "name":"Muscles", "rate":"100% 50% 50%", "mission":"", "options":"BaseGame|VeryRareEnemy" }
+					]
+				},
+				{
+					"name":"Opportunity",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Statuesque", "giver":"Bounty Board", "options":"BaseGame|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Written by the Victor", "giver":"Information Kiosk", "options":"BaseGame|ShortMission" },
+						{ "type":"Enemy", "name":"Foreman Jasper/Rusty", "rate":"15%", "mission":"Hell Hath No Fury", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Hacked Overseer", "rate":"50% 50%", "mission":"Statuesque", "options":"BaseGame|LongMission|UniqueEnemy|MissionLocation" }
+					]
+				},
+				{
+					"name":"The Bunker",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"BNK-3R", "rate":"33%", "mission":"Main Story", "options":"BaseGame|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Eridium Blight",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Kill Yourself (Do it)", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Kill Yourself (Don't do it)", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Customer Service", "giver":"Bounty Board", "options":"BaseGame|VehicleMission" },
+						{ "type":"Mission", "rate":"100%", "name":"To Grandmother's House We Go", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"A Real Boy: Clothes Make the Man", "giver":"Mal", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"A Real Boy: Face Time", "giver":"Mal", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"A Real Boy: Human", "giver":"Mal", "options":"BaseGame|ShortMission" },
+						{ "type":"Enemy", "name":"Geary", "rate":"33%", "mission":"", "options":"BaseGame|SlowEnemy" },
+						{ "type":"Enemy", "name":"Donkey Mong", "rate":"33%", "mission":"", "options":"BaseGame|RareEnemy" },
+						{ "type":"Enemy", "name":"King Mong", "rate":"33%", "mission":"", "options":"BaseGame|RareEnemy" },
+						{ "type":"Other", "name":"Geary's Unbreakable Gear", "rate":"100%", "options":"BaseGame|VeryLongMission|Miscellaneous" }
+					]
+				},
+				{
+					"name":"Ore Chasm",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Hyperion Slaughter: Round 1", "giver":"Innuendobot 5000", "options":"BaseGame|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Hyperion Slaughter: Round 2", "giver":"Innuendobot 5000", "options":"BaseGame|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Hyperion Slaughter: Round 3", "giver":"Innuendobot 5000", "options":"BaseGame|LongMission|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Hyperion Slaughter: Round 4", "giver":"Innuendobot 5000", "options":"BaseGame|LongMission|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Hyperion Slaughter: Round 5", "giver":"Innuendobot 5000", "options":"BaseGame|VeryLongMission|Slaughter" }
+					]
+				},
+				{
+					"name":"Sawtooth Cauldron",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"The Lost Treasure", "giver":"ECHO recorder", "options":"BaseGame|VeryLongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Great Escape", "giver":"Ulysses", "options":"BaseGame|ShortMission" },
+						{ "type":"Enemy", "name":"Mortar", "rate":"15%", "mission":"Main Story", "options":"BaseGame|UniqueEnemy" }
+					]
+				},
+				{
+					"name":"Arid Nexus - Boneyard",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Hunter Hellquist", "rate":"15%", "mission":"This Just In", "options":"BaseGame|UniqueEnemy" }
+					]
+				},
+				{
+					"name":"Arid Nexus - Badlands",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Uncle Teddy (Turn in Una)", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Uncle Teddy (Turn in Hyperion)", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Get to Know Jack", "giver":"Bounty Board", "options":"BaseGame|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Hungry Like the Skag", "giver":"ECHO Recorder", "options":"BaseGame|ShortMission" },
+						{ "type":"Enemy", "name":"Bone Head 2.0", "rate":"15%", "mission":"", "options":"BaseGame|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Saturn", "rate":"15%", "mission":"Main Story", "options":"BaseGame|UniqueEnemy" }
+					]
+				},
+				{
+					"name":"Vault of the Warrior",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"The Warrior", "rate":"33%", "mission":"Main Story", "options":"BaseGame|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Terramorphous Peak",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Terramorphous the Invincible", "rate":"100% 100% 100%", "mission":"You. Will. Die. (Seriously.)", "options":"BaseGame|UniqueEnemy|Raid" }
+					]
+				}
+			]
+		},
+		{
+			"name":"PiratesBooty",
+			"maps":
+			[
+				{
+					"name":"Oasis",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Message in a Bottle (Oasis)", "giver":"Bottle", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Man's Best Friend", "giver":"Bounty Board", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Burying the Past", "giver":"Bounty Board", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Grendel", "giver":"Bounty Board", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Fire Water", "giver":"Shade", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Giving Jocko A Leg Up", "giver":"Shade", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Wingman", "giver":"Shade", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Treasure of the Sands", "giver":"Bounty Board", "options":"PiratesBooty|VeryLongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Hyperius the Invincible", "giver":"Shade", "options":"PiratesBooty|ShortMission|Raid" },
+						{ "type":"Mission", "rate":"100%", "name":"Master Gee the Invincible", "giver":"Shade", "options":"PiratesBooty|ShortMission|Raid" },
+						{ "type":"Enemy", "name":"Tinkles", "rate":"15%", "mission":"Man's Best Friend", "options":"PiratesBooty|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Benny the Booster", "rate":"15%", "mission":"Just Desserts for Desert Deserters", "options":"PiratesBooty|UniqueEnemy" },
+						{ "type":"Other", "name":"Oasis Seraph Vendor", "rate":"100%", "options":"PiratesBooty|Vendor" }
+					]
+				},
+				{
+					"name":"Wurmwater",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Message in a Bottle (Wurmwater)", "giver":"Bottle", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Smells Like Victory", "giver":"Shiv-Spike", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Ye Scurvy Dogs", "giver":"Bounty Board", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Faster Than the Speed of Love", "giver":"Bounty Board", "options":"PiratesBooty|VehicleMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Declaration Against Independents", "giver":"Bounty Board", "options":"PiratesBooty|VehicleMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Catch-A-Ride, and Also Tetanus", "giver":"Bounty Board", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Just Desserts for Desert Deserters", "giver":"Bounty Board", "options":"PiratesBooty|ShortMission" }
+					]
+				},
+				{
+					"name":"Hayter's Folly",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Message in a Bottle (Hayter's Folly)", "giver":"Bottle", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Enemy", "name":"Deckhand", "rate":"33%", "mission":"Just Desserts for Desert Deserters", "options":"PiratesBooty|SlowEnemy" },
+						{ "type":"Enemy", "name":"Grendel", "rate":"15%", "mission":"Grendel", "options":"PiratesBooty|UniqueEnemy" },
+						{ "type":"Enemy", "name":"The Big Sleep", "rate":"33%", "mission":"Main Story", "options":"PiratesBooty|SlowEnemy" },
+						{ "type":"Enemy", "name":"Sandman", "rate":"33%", "mission":"Main Story", "options":"PiratesBooty|SlowEnemy" },
+						{ "type":"Enemy", "name":"Master Gee the Invincible", "rate":"100% 100% 100% 50% 50% 50%", "mission":"Master Gee the Invincible", "options":"PiratesBooty|UniqueEnemy|Raid" }
+					]
+				},
+				{
+					"name":"The Rustyards",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Message in a Bottle (The Rustyards)", "giver":"Bottle", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Enemy", "name":"Toothless Terry", "rate":"50%", "mission":"Just Desserts for Desert Deserters", "options":"PiratesBooty|ShortMission|UniqueEnemy|MissionLocation" }
+					]
+				},
+				{
+					"name":"Washburne Refinery",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"I Know It When I See It", "giver":"C3n50r807", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Don't Copy That Floppy", "giver":"C3n50r807", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Freedom of Speech", "giver":"C3n50r807", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Enemy", "name":"P3RV-E", "rate":"33%", "mission":"Don't Copy That Floppy", "options":"PiratesBooty|SlowEnemy" },
+						{ "type":"Enemy", "name":"H3RL-E", "rate":"33%", "mission":"Main Story", "options":"PiratesBooty|SlowEnemy" },
+						{ "type":"Enemy", "name":"Hyperius the Invincible", "rate":"100% 100% 100% 50% 50% 50%", "mission":"Hyperius the Invincible", "options":"PiratesBooty|UniqueEnemy|Raid" }
+					]
+				},
+				{
+					"name":"Magnys Lighthouse",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Message In A Bottle (Magnys Lighthouse)", "giver":"Bottle", "options":"PiratesBooty|ShortMission" },
+						{ "type":"Enemy", "name":"Mr. Bubbles", "rate":"100% 50% 50%", "mission":"", "options":"PiratesBooty|VeryRareEnemy" },
+						{ "type":"Enemy", "name":"Lil' Sis", "rate":"100% 50% 50%", "mission":"", "options":"PiratesBooty|VeryRareEnemy" },
+						{ "type":"Enemy", "name":"Lieutenant White", "rate":"100% 50% 50%", "mission":"Treasure of the Sands", "options":"PiratesBooty|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Lieutenant Hoffman", "rate":"100% 50% 50%", "mission":"Treasure of the Sands", "options":"PiratesBooty|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"DJ Tanner", "rate":"33%", "mission":"Freedom of Speech", "options":"PiratesBooty|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Lair of The Leviathan",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Captain Scarlett", "rate":"100% 50% 50%", "mission":"Treasure of the Sands", "options":"PiratesBooty|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Leviathan", "rate":"100% 50% 50%", "mission":"Treasure of the Sands", "options":"PiratesBooty|VeryLongMission|UniqueEnemy|MissionLocation" }
+					]
+				}
+			]
+		},
+		{
+			"name":"CampaignOfCarnage",
+			"maps":
+			[
+				{
+					"name":"Badass Crater of Badassitude",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Tier 2 Battle: The Death Race", "giver":"Battle Board", "options":"CampaignOfCarnage|VehicleMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Tier 3 Battle: The Death Race", "giver":"Battle Board", "options":"CampaignOfCarnage|VehicleMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Number One Fan", "giver":"Tiny Tina", "options":"CampaignOfCarnage|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Walking the Dog", "giver":"Tiny Tina", "options":"CampaignOfCarnage|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Monster Hunter", "giver":"Bounty Board", "options":"CampaignOfCarnage|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Gas Guzzlers (Turn in Hammerlock)", "giver":"Bounty Board", "options":"CampaignOfCarnage|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Gas Guzzlers (Turn in Scooter)", "giver":"Bounty Board", "options":"CampaignOfCarnage|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Matter Of Taste", "giver":"Bounty Board", "options":"CampaignOfCarnage|LongMission" },
+						{ "type":"Enemy", "name":"Enrique", "rate":"50% 50%", "mission":"Walking the Dog", "options":"CampaignOfCarnage|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Other", "name":"Badass Crater Seraph Vendor", "rate":"100%", "options":"CampaignOfCarnage|Vendor" },
+						{ "type":"Other", "name":"Torgue Vendor", "rate":"100%", "options":"CampaignOfCarnage|Vendor" }
+					]
+				},
+				{
+					"name":"Torgue Arena",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Tier 2 Battle: Appetite for Destruction", "giver":"Battle Board", "options":"CampaignOfCarnage|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Tier 3 Battle: Appetite for Destruction", "giver":"Battle Board", "options":"CampaignOfCarnage|Slaughter" },
+						{ "type":"Enemy", "name":"Gladiator Goliath", "rate":"50%", "mission":"", "options":"CampaignOfCarnage|Slaughter|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Piston/Badassasarus Rex", "rate":"33%", "mission":"Main Story", "options":"CampaignOfCarnage|SlowEnemy" },
+						{ "type":"Other", "name":"Torgue Arena Provided Loot", "rate":"100%", "options":"CampaignOfCarnage|Miscellaneous" }
+					]
+				},
+				{
+					"name":"The Beatdown",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Totally Recall", "giver":"Bounty Board", "options":"CampaignOfCarnage|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Mother-Lover (Turn in Scooter)", "giver":"Bounty Board", "options":"CampaignOfCarnage|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Mother-Lover (Turn in Moxxi)", "giver":"Bounty Board", "options":"CampaignOfCarnage|ShortMission" },
+						{ "type":"Enemy", "name":"Sully the Stabber", "rate":"50%", "mission":"Number One Fan", "options":"CampaignOfCarnage|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Pete's Burner", "rate":"3%", "mission":"", "options":"CampaignOfCarnage|MobFarm" },
+						{ "type":"Enemy", "name":"Hamhock the Ham", "rate":"50%", "mission":"Mother-Lover", "options":"CampaignOfCarnage|ShortMission|UniqueEnemy|MissionLocation" }
+					]
+				},
+				{
+					"name":"Pyro Pete's Bar",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Tier 2 Battle: Bar Room Blitz", "giver":"Battle Board", "options":"CampaignOfCarnage|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Tier 3 Battle: Bar Room Blitz", "giver":"Battle Board", "options":"CampaignOfCarnage|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Pete the Invincible", "giver":"Moxxi", "options":"CampaignOfCarnage|ShortMission|Raid" },
+						{ "type":"Enemy", "name":"Pyro Pete the Invincible", "rate":"100% 100% 100% 50% 50% 50%", "mission":"Pete the Invincible", "options":"CampaignOfCarnage|UniqueEnemy|Raid" }
+					]
+				},
+				{
+					"name":"Badass Crater Bar",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Everybody Wants to be Wanted", "giver":"Moxxi", "options":"CampaignOfCarnage|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Interview with a Vault Hunter", "giver":"Moxxi", "options":"CampaignOfCarnage|ShortMission" }
+					]
+				},
+				{
+					"name":"Southern Raceway",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Motor Momma", "rate":"33%", "mission":"Main Story", "options":"CampaignOfCarnage|SlowEnemy" },
+						{ "type":"Enemy", "name":"Chubby Rakk (Gas Guzzlers)", "rate":"50% 50%", "mission":"Gas Guzzlers", "options":"CampaignOfCarnage|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"BuffGamer G", "rate":"50% 50%", "mission":"Matter Of Taste", "options":"CampaignOfCarnage|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Game Critic Extraordinaire", "rate":"50% 50%", "mission":"Matter Of Taste", "options":"CampaignOfCarnage|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"The Monster Truck", "rate":"50%", "mission":"Monster Hunter", "options":"CampaignOfCarnage|ShortMission|UniqueEnemy|MissionLocation" }
+					]
+				},
+				{
+					"name":"The Forge",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Tier 2 Battle: Twelve O' Clock High", "giver":"Battle Board", "options":"CampaignOfCarnage|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Tier 3 Battle: Twelve O' Clock High", "giver":"Battle Board", "options":"CampaignOfCarnage|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"My Husband the Skag (Kill Uriah)", "giver":"Bounty Board", "options":"CampaignOfCarnage|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"My Husband the Skag (Spare Uriah)", "giver":"Bounty Board", "options":"CampaignOfCarnage|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Say That To My Face", "giver":"Bounty Board", "options":"CampaignOfCarnage|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Commercial Appeal", "giver":"Bounty Board", "options":"CampaignOfCarnage|LongMission" },
+						{ "type":"Enemy", "name":"Anonymous Troll Face", "rate":"50%", "mission":"Say That To My Face", "options":"CampaignOfCarnage|ShortMission|UniqueEnemy|MissionLocation" }
+					]
+				}
+			]
+		},
+		{
+			"name":"HammerlocksHunt",
+			"maps":
+			[
+				{
+					"name":"Hunter's Grotto",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"I Like My Monsters Rare", "giver":"Bounty Board", "options":"HammerlocksHunt|VeryLongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Still Just a Borok in a Cage", "giver":"Bounty Board", "options":"HammerlocksHunt|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Egg on Your Face", "giver":"Bounty Board", "options":"HammerlocksHunt|LongMission|VehicleMission" },
+						{ "type":"Mission", "rate":"100%", "name":"An Acquired Taste", "giver":"Hammerlock", "options":"HammerlocksHunt|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Palling Around", "giver":"Hammerlock", "options":"HammerlocksHunt|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Big Feet", "giver":"Hammerlock", "options":"HammerlocksHunt|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Now You See It", "giver":"Hammerlock", "options":"HammerlocksHunt|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Voracidous the Invincible", "giver":"Hammerlock", "options":"HammerlocksHunt|ShortMission|Raid" },
+						{ "type":"Enemy", "name":"Der Monstrositat", "rate":"50%", "mission":"Still Just a Borok in a Cage", "options":"HammerlocksHunt|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Dexiduous the Invincible", "rate":"100% 100% 100% 50% 50% 50%", "mission":"", "options":"HammerlocksHunt|UniqueEnemy|Raid" },
+						{ "type":"Enemy", "name":"The Bulwark", "rate":"33%", "mission":"Palling Around", "options":"HammerlocksHunt|SlowEnemy" },
+						{ "type":"Enemy", "name":"Bulstoss", "rate":"33%", "mission":"An Acquired Taste", "options":"HammerlocksHunt|SlowEnemy" },
+						{ "type":"Enemy", "name":"Arizona", "rate":"50% 50%", "mission":"Egg on Your Face", "options":"HammerlocksHunt|SlowEnemy" },
+						{ "type":"Enemy", "name":"Omnd-Omnd-Ohk", "rate":"100% 50% 50% 50% 50%", "mission":"", "options":"HammerlocksHunt|VeryRareEnemy|EvolvedEnemy" },
+						{ "type":"Other", "name":"Hunter's Grotto Seraph Vendor", "rate":"100%", "options":"HammerlocksHunt|Vendor" }
+					]
+				},
+				{
+					"name":"Scylla's Grove",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Ol' Pukey", "giver":"Claptrap", "options":"HammerlocksHunt|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Nakayama-rama", "giver":"Claptrap", "options":"HammerlocksHunt|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Rakk Dahlia Murder", "giver":"Claptrap", "options":"HammerlocksHunt|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Urine, You're Out", "giver":"Claptrap", "options":"HammerlocksHunt|VeryLongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Follow The Glow", "giver":"Claptrap", "options":"HammerlocksHunt|ShortMission" },
+						{ "type":"Enemy", "name":"Rakkanoth", "rate":"50%", "mission":"The Rakk Dahlia Murder", "options":"HammerlocksHunt|ShortMission|UniqueEnemy|MissionLocation" }
+					]
+				},
+				{
+					"name":"Ardorton Station",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Dribbles", "rate":"15%", "mission":"Follow The Glow", "options":"HammerlocksHunt|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Woundspike", "rate":"33%", "mission":"Main Story", "options":"HammerlocksHunt|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Candlerakk's Crag",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Rouge", "rate":"33%", "mission":"Big Feet", "options":"HammerlocksHunt|SlowEnemy" },
+						{ "type":"Enemy", "name":"Bloodtail", "rate":"33%", "mission":"Now You See It", "options":"HammerlocksHunt|SlowEnemy" },
+						{ "type":"Enemy", "name":"Voracidous the Invincible", "rate":"100% 100% 100% 50% 50% 50%", "mission":"Voracidous the Invincible", "options":"HammerlocksHunt|UniqueEnemy|Raid" }
+					]
+				},
+				{
+					"name":"H.S.S. Terminus",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Jackenstein", "rate":"33%", "mission":"Main Story", "options":"HammerlocksHunt|SlowEnemy" }
+					]
+				}
+			]
+		},
+		{
+			"name":"DragonKeep",
+			"maps":
+			[
+				{
+					"name":"DragonKeep - Multiple Locations",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Sorcerer", "rate":"15%", "mission":"", "options":"DragonKeep|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Badass Sorcerer", "rate":"15%", "mission":"", "options":"DragonKeep|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Fire Mage", "rate":"15%", "mission":"", "options":"DragonKeep|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Badass Fire Mage", "rate":"15%", "mission":"", "options":"DragonKeep|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Necromancer", "rate":"15%", "mission":"", "options":"DragonKeep|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Badass Necromancer", "rate":"15%", "mission":"", "options":"DragonKeep|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Wizard", "rate":"50% 50% 33%", "mission":"", "options":"DragonKeep|LongMission|Slaughter|RareEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Badass Wizard", "rate":"100% 50% 50% 33%", "mission":"", "options":"DragonKeep|VeryLongMission|Slaughter|RareEnemy|MissionLocation" },
+						{ "type":"Other", "name":"Mimic Chest", "rate":"33%", "options":"DragonKeep|Miscellaneous" }
+					]
+				},
+				{
+					"name":"Unassuming Docks",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Mister Boney Pants Guy", "rate":"15%", "mission":"Main Story", "options":"DragonKeep|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Unmotivated Golem", "rate":"50% 50%", "mission":"The Sword in The Stoner", "options":"DragonKeep|LongMission|UniqueEnemy|MissionLocation" }
+					]
+				},
+				{
+					"name":"Flamerock Refuge",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Roll Insight", "giver":"Sir Reginald", "options":"DragonKeep|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Fake Geek Guy", "giver":"Torgue", "options":"DragonKeep|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Post-Crumpocalyptic", "giver":"Moxxi", "options":"DragonKeep|VeryLongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Ell in Shining Armor (Skimpy Armor)", "giver":"Ellie", "options":"DragonKeep|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Ell in Shining Armor (Bulky Armor)", "giver":"Ellie", "options":"DragonKeep|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Pet Butt Stallion", "giver":"Butt Stallion", "options":"DragonKeep|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Feed Butt Stallion", "giver":"Butt Stallion", "options":"DragonKeep|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Find Murderlin's Temple", "giver":"Moxxi", "options":"DragonKeep|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Critical Fail", "giver":"Moxxi", "options":"DragonKeep|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"MMORPGFPS", "giver":"Torgue", "options":"DragonKeep|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Raiders of the Last Boss", "giver":"Torgue", "options":"DragonKeep|ShortMission|Raid" },
+						{ "type":"Mission", "rate":"100%", "name":"The Sword in The Stoner", "giver":"Roland", "options":"DragonKeep|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Winter is a Bloody Business", "giver":"Roland", "options":"DragonKeep|LongMission" },
+						{ "type":"Other", "name":"Flamerock Refuge Seraph Vendor", "rate":"100%", "options":"DragonKeep|Vendor" },
+						{ "type":"Other", "name":"Butt Stallion Fart", "rate":"100%", "options":"DragonKeep|Miscellaneous" },
+						{ "type":"Other", "name":"Butt Stallion with Mysterious Amulet", "rate":"100%", "options":"DragonKeep|FightForSanctuary|Miscellaneous" }
+					]
+				},
+				{
+					"name":"The Forest",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Tree Hugger", "giver":"Aubrey", "options":"DragonKeep|LongMission" },
+						{ "type":"Enemy", "name":"Treant", "rate":"15%", "mission":"", "options":"DragonKeep|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Warlord Grug", "rate":"15%", "mission":"", "options":"DragonKeep|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Duke of Ork", "rate":"50% 50%", "mission":"", "options":"DragonKeep|EvolvedEnemy" },
+						{ "type":"Enemy", "name":"Arguk the Butcher", "rate":"50%", "mission":"Critical Fail", "options":"DragonKeep|ShortMission|UniqueEnemy|MissionLocation" }
+					]
+				},
+				{
+					"name":"Immortal Woods",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Lost Souls", "giver":"Fallen Player", "options":"DragonKeep|ShortMission" },
+						{ "type":"Enemy", "name":"-=nOObkiLLer=-", "rate":"50%", "mission":"Lost Souls", "options":"DragonKeep|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"xxDatVaultHuntrxx", "rate":"10%", "mission":"Lost Souls", "options":"DragonKeep|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"420_E-Sports_Masta", "rate":"10%", "mission":"Lost Souls", "options":"DragonKeep|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"[720NoScope]Headshotz", "rate":"10%", "mission":"Lost Souls", "options":"DragonKeep|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"King Aliah", "rate":"33%", "mission":"Main Story", "options":"DragonKeep|SlowEnemy" },
+						{ "type":"Enemy", "name":"King Crono", "rate":"33%", "mission":"Main Story", "options":"DragonKeep|SlowEnemy" },
+						{ "type":"Enemy", "name":"King Seth", "rate":"33%", "mission":"Main Story", "options":"DragonKeep|SlowEnemy" },
+						{ "type":"Enemy", "name":"King Nazar", "rate":"33%", "mission":"Main Story", "options":"DragonKeep|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Mines of Avarice",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"The Beard Makes The Man", "giver":"Claptrap", "options":"DragonKeep|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"My Kingdom for a Wand", "giver":"Claptrap", "options":"DragonKeep|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Claptrap's Apprentice", "giver":"Claptrap", "options":"DragonKeep|ShortMission" },
+						{ "type":"Enemy", "name":"Spiderpants", "rate":"100% 100% 50% 50%", "mission":"", "options":"DragonKeep|SlowEnemy|VeryRareEnemy" },
+						{ "type":"Enemy", "name":"Magical Spider", "rate":"5%", "mission":"My Kingdom for a Wand", "options":"DragonKeep|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Magical Orc", "rate":"5%", "mission":"My Kingdom for a Wand", "options":"DragonKeep|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Maxibillion", "rate":"5%", "mission":"My Kingdom for a Wand", "options":"DragonKeep|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Gold Golem", "rate":"33% 33% 33%", "mission":"", "options":"DragonKeep|SlowEnemy" },
+						{ "type":"Enemy", "name":"Iron GOD", "rate":"100% 100% 100% 50% 50% 50% 50% 50% 33%", "mission":"", "options":"DragonKeep|SlowEnemy|Raid|EvolvedEnemy" },
+						{ "type":"Enemy", "name":"Warlord Turge", "rate":"15%", "mission":"", "options":"DragonKeep|UniqueEnemy" }
+					]
+				},
+				{
+					"name":"Hatred's Shadow",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Loot Ninja", "giver":"Sir Gallow", "options":"DragonKeep|ShortMission" },
+						{ "type":"Enemy", "name":"The Darkness", "rate":"15%", "mission":"", "options":"DragonKeep|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Sir Boil", "rate":"50%", "mission":"Loot Ninja", "options":"DragonKeep|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Sir Mash", "rate":"50%", "mission":"Loot Ninja", "options":"DragonKeep|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Sir Stew", "rate":"50%", "mission":"Loot Ninja", "options":"DragonKeep|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Handsome Dragon", "rate":"33% 33% 33%", "mission":"Main Story", "options":"DragonKeep|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Canine", "rate":"50% 50%", "mission":"Winter is a Bloody Business", "options":"DragonKeep|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Molehill", "rate":"50% 50%", "mission":"Winter is a Bloody Business", "options":"DragonKeep|LongMission|UniqueEnemy|MissionLocation" }
+					]
+				},
+				{
+					"name":"Lair of Infinite Agony",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"My Dead Brother (Kill Edgar)", "giver":"Simon", "options":"DragonKeep|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"My Dead Brother (Kill Simon)", "giver":"Simon", "options":"DragonKeep|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Amulet (Buy Miz's Amulet)", "giver":"Mr. Miz", "options":"DragonKeep|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Amulet (Punch Miz In The Face)", "giver":"Mr. Miz", "options":"DragonKeep|LongMission" },
+						{ "type":"Enemy", "name":"Edgar", "rate":"50% 50%", "mission":"My Dead Brother", "options":"DragonKeep|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Simon", "rate":"50% 50%", "mission":"My Dead Brother", "options":"DragonKeep|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Sorcerer's Daughter", "rate":"33% 33%", "mission":"Main Story", "options":"DragonKeep|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Dragon Keep",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Handsome Sorcerer", "rate":"33% 33% 33%", "mission":"Main Story", "options":"DragonKeep|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Murderlin's Temple",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Magic Slaughter: Round 1", "giver":"Murderlin", "options":"DragonKeep|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Magic Slaughter: Round 2", "giver":"Murderlin", "options":"DragonKeep|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Magic Slaughter: Round 3", "giver":"Murderlin", "options":"DragonKeep|LongMission|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Magic Slaughter: Round 4", "giver":"Murderlin", "options":"DragonKeep|LongMission|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Magic Slaughter: Round 5", "giver":"Murderlin", "options":"DragonKeep|VeryLongMission|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"Magic Slaughter: Badass Round", "giver":"Murderlin", "options":"DragonKeep|VeryLongMission|Slaughter" },
+						{ "type":"Mission", "rate":"100%", "name":"The Magic of Childhood", "giver":"Murderlin", "options":"DragonKeep|LongMission|Slaughter" },
+						{ "type":"Enemy", "name":"Warlord Slog", "rate":"100% 50% 50%", "mission":"Magic Slaughter: Badass Round", "options":"DragonKeep|VeryLongMission|Slaughter|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"King of Orks", "rate":"100% 50% 50% 50% 50%", "mission":"Magic Slaughter: Badass Round", "options":"DragonKeep|VeryLongMission|Slaughter|MissionLocation|EvolvedEnemy" }
+					]
+				},
+				{
+					"name":"The Winged Storm",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"The Ancient Dragons of Destruction", "rate":"100% 100% 100% 50% 50% 50%", "mission":"Raiders of the Last Boss", "options":"DragonKeep|UniqueEnemy|Raid" }
+					]
+				}
+			]
+		},
+		{
+			"name":"FightForSanctuary",
+			"maps":
+			[
+				{
+					"name":"FFS - Multiple Locations",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Infected Badass Sprout", "rate":"7%", "mission":"", "options":"FightForSanctuary|MobFarm" },
+						{ "type":"Enemy", "name":"New Pandora Soldier", "rate":"3%", "mission":"", "options":"FightForSanctuary|MobFarm" }
+					]
+				},
+				{
+					"name":"The Backburner",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Space Cowboy", "giver":"Moxxi", "options":"FightForSanctuary|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Hunt is Vaughn", "giver":"Vaughn", "options":"FightForSanctuary|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Hypocritical Oath", "giver":"Zed", "options":"FightForSanctuary|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Cadeuceus", "giver":"Zed", "options":"FightForSanctuary|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"The Vaughnguard", "giver":"Vaughn", "options":"FightForSanctuary|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"My Brittle Pony", "giver":"Vaughn", "options":"FightForSanctuary|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"BFFFs", "giver":"Brick", "options":"FightForSanctuary|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Chief Executive Overlord", "giver":"Vaughn", "options":"FightForSanctuary|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"A Most Cacophonous Lure", "giver":"Hammerlock", "options":"FightForSanctuary|ShortMission|Raid" },
+						{ "type":"Enemy", "name":"Jerry", "rate":"50% 50%", "mission":"The Vaughnguard", "options":"FightForSanctuary|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Dr. Zed's Experiment", "rate":"50%", "mission":"Hypocritical Oath", "options":"FightForSanctuary|ShortMission|UniqueEnemy|MissionLocation" }
+					]
+				},
+				{
+					"name":"Dahl Abandon",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"The Oddest Couple", "giver":"Marcus", "options":"FightForSanctuary|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Claptocurrency", "giver":"Claptrap", "options":"FightForSanctuary|ShortMission" },
+						{ "type":"Enemy", "name":"Loot Nest", "rate":"15%", "mission":"", "options":"FightForSanctuary|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Pizza-Addicted Skag", "rate":"50%", "mission":"The Oddest Couple", "options":"FightForSanctuary|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Loot Midget (Space Cowboy)", "rate":"50% 50%", "mission":"Space Cowboy", "options":"FightForSanctuary|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"The Dark Web", "rate":"50%", "mission":"Claptocurrency", "options":"FightForSanctuary|ShortMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Lt. Bolson", "rate":"33%", "mission":"BFFFs", "options":"FightForSanctuary|SlowEnemy" },
+						{ "type":"Enemy", "name":"Bandit Leader (Nomad)", "rate":"50% 50%", "mission":"The Vaughnguard", "options":"FightForSanctuary|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Bandit Leader (Marauder)", "rate":"50% 50%", "mission":"The Vaughnguard", "options":"FightForSanctuary|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Other", "name":"Dahl Abandon Grave", "rate":"100%", "options":"FightForSanctuary|Miscellaneous" }
+					]
+				},
+				{
+					"name":"Helios Fallen",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Sirentology", "giver":"Lilith", "options":"FightForSanctuary|LongMission" },
+						{ "type":"Enemy", "name":"Uranus", "rate":"33%", "mission":"Main Story", "options":"FightForSanctuary|SlowEnemy" },
+						{ "type":"Enemy", "name":"Lt. Tetra", "rate":"33%", "mission":"BFFFs", "options":"FightForSanctuary|SlowEnemy" }
+					]
+				},
+				{
+					"name":"The Burrows",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Sand Worm", "rate":"3%", "mission":"", "options":"FightForSanctuary|MobFarm" },
+						{ "type":"Enemy", "name":"Ghost", "rate":"15%", "mission":"", "options":"FightForSanctuary|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Lt. Angvar", "rate":"33%", "mission":"BFFFs", "options":"FightForSanctuary|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Mt. Scarab Research Center",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Echoes of the Past", "giver":"Hector's Echo", "options":"FightForSanctuary|ShortMission" },
+						{ "type":"Enemy", "name":"Cassius", "rate":"33%", "mission":"Main Story", "options":"FightForSanctuary|SlowEnemy" },
+						{ "type":"Enemy", "name":"Lt. Hoffman", "rate":"33%", "mission":"BFFFs", "options":"FightForSanctuary|SlowEnemy" }
+					]
+				},
+				{
+					"name":"Writhing Deep",
+					"meos":
+					[
+						{ "type":"Enemy", "name":"Haderax The Invincible", "rate":"100% 100% 100% 50% 50% 50%", "mission":"A Most Cacophonous Lure", "options":"FightForSanctuary|UniqueEnemy|Raid" }
+					]
+				}
+			]
+		},
+		{
+			"name":"WattleGobbler",
+			"maps":
+			[
+				{
+					"name":"Gluttony Gulch",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"The Hunger Pangs", "giver":"Intro NPC", "options":"WattleGobbler|VeryLongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Grandma Flexington's Story", "giver":"Torgue", "options":"WattleGobbler|LongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Grandma Flexington's Story: Raid Difficulty", "giver":"Grandma Torgue", "options":"WattleGobbler|VeryLongMission|Raid" },
+						{ "type":"Enemy", "name":"The Rat in the Hat", "rate":"100% 50% 50%", "mission":"The Hunger Pangs", "options":"WattleGobbler|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Chef Gouda Remsay", "rate":"100% 50% 50%", "mission":"The Hunger Pangs", "options":"WattleGobbler|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Chef Brulee", "rate":"100% 50% 50%", "mission":"The Hunger Pangs", "options":"WattleGobbler|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Chef Bork Bork", "rate":"100% 50% 50%", "mission":"The Hunger Pangs", "options":"WattleGobbler|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Glasspool, Tribute of Wurmwater", "rate":"100% 50% 50%", "mission":"The Hunger Pangs", "options":"WattleGobbler|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"William, Tribute of Wurmwater", "rate":"100% 50% 50%", "mission":"The Hunger Pangs", "options":"WattleGobbler|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Axel, Tribute of Opportunity", "rate":"100% 50% 50%", "mission":"The Hunger Pangs", "options":"WattleGobbler|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Rose, Tribute of Opportunity", "rate":"100% 50% 50%", "mission":"The Hunger Pangs", "options":"WattleGobbler|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Fiona, Tribute of Sanctuary", "rate":"67%", "mission":"The Hunger Pangs", "options":"WattleGobbler|RareEnemy" },
+						{ "type":"Enemy", "name":"Max, Tribute of Sanctuary", "rate":"67%", "mission":"The Hunger Pangs", "options":"WattleGobbler|RareEnemy" },
+						{ "type":"Enemy", "name":"Strip, Tribute of Southern Shelf", "rate":"67%", "mission":"The Hunger Pangs", "options":"WattleGobbler|RareEnemy" },
+						{ "type":"Enemy", "name":"Flay, Tribute of Southern Shelf", "rate":"67%", "mission":"The Hunger Pangs", "options":"WattleGobbler|RareEnemy" },
+						{ "type":"Enemy", "name":"Fuse, Tribute of Frostburn", "rate":"67%", "mission":"The Hunger Pangs", "options":"WattleGobbler|RareEnemy" },
+						{ "type":"Enemy", "name":"Cynder, Tribute of Frostburn", "rate":"67%", "mission":"The Hunger Pangs", "options":"WattleGobbler|RareEnemy" },
+						{ "type":"Enemy", "name":"Annie, Tribute of Lynchwood", "rate":"67%", "mission":"The Hunger Pangs", "options":"WattleGobbler|RareEnemy" },
+						{ "type":"Enemy", "name":"Garret, Tribute of Lynchwood", "rate":"67%", "mission":"The Hunger Pangs", "options":"WattleGobbler|RareEnemy" },
+						{ "type":"Enemy", "name":"Moretus, Tribute of Sawtooth Cauldron", "rate":"67%", "mission":"The Hunger Pangs", "options":"WattleGobbler|RareEnemy" },
+						{ "type":"Enemy", "name":"Bailly, Tribute of Sawtooth Cauldron", "rate":"67%", "mission":"The Hunger Pangs", "options":"WattleGobbler|RareEnemy" },
+						{ "type":"Enemy", "name":"Ravenous Wattle Gobbler", "rate":"33%", "mission":"The Hunger Pangs", "options":"WattleGobbler|SlowEnemy" }
+					]
+				}
+			]
+		},
+		{
+			"name":"BloodyHarvest",
+			"maps":
+			[
+				{
+					"name":"Hallowed Hollow",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"The Bloody Harvest", "giver":"TK Baha", "options":"BloodyHarvest|VeryLongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Trick or Treat", "giver":"TK Baha", "options":"BloodyHarvest|ShortMission" },
+						{ "type":"Enemy", "name":"Enchanted Skeleton", "rate":"100% 50% 50%", "mission":"The Bloody Harvest", "options":"BloodyHarvest|VeryRareEnemy" },
+						{ "type":"Enemy", "name":"Sully the Blacksmith", "rate":"100% 50% 50%", "mission":"The Bloody Harvest", "options":"BloodyHarvest|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Pumpkin Kingpin/Jacques O'Lantern", "rate":"33% 33% 33%", "mission":"The Bloody Harvest", "options":"BloodyHarvest|SlowEnemy" },
+						{ "type":"Enemy", "name":"Clark the Combusted Cryptkeeper", "rate":"100% 50% 50% 33%", "mission":"", "options":"BloodyHarvest|VeryLongMission|SlowEnemy|MissionLocation" }
+					]
+				}
+			]
+		},
+		{
+			"name":"WeddingDayMassacre",
+			"maps":
+			[
+				{
+					"name":"Rotgut Distillery",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"A Match Made on Pandora", "giver":"Moxxi", "options":"WeddingDayMassacre|VeryLongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Learning to Love", "giver":"Innuendobot 5000", "options":"WeddingDayMassacre|LongMission" },
+						{ "type":"Enemy", "name":"BLNG Loader", "rate":"100% 50% 50%", "mission":"A Match Made on Pandora", "options":"WeddingDayMassacre|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Colin Zaford", "rate":"33%", "mission":"A Match Made on Pandora", "options":"WeddingDayMassacre|SlowEnemy" },
+						{ "type":"Enemy", "name":"Bridget Hodunk", "rate":"33%", "mission":"A Match Made on Pandora", "options":"WeddingDayMassacre|SlowEnemy" },
+						{ "type":"Enemy", "name":"Sigmand", "rate":"15%", "mission":"A Match Made on Pandora", "options":"WeddingDayMassacre|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Ikaroa", "rate":"15%", "mission":"A Match Made on Pandora", "options":"WeddingDayMassacre|UniqueEnemy" },
+						{ "type":"Enemy", "name":"Moby", "rate":"33%", "mission":"A Match Made on Pandora", "options":"WeddingDayMassacre|SlowEnemy" },
+						{ "type":"Enemy", "name":"Fire Crak'n", "rate":"33%", "mission":"A Match Made on Pandora", "options":"WeddingDayMassacre|SlowEnemy" },
+						{ "type":"Enemy", "name":"Rue, The Love Thresher", "rate":"50% 50%", "mission":"A Match Made on Pandora", "options":"WeddingDayMassacre|SlowEnemy" },
+						{ "type":"Enemy", "name":"Ed", "rate":"50% 50%", "mission":"Learning to Love", "options":"WeddingDayMassacre|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Stella", "rate":"50% 50%", "mission":"Learning to Love", "options":"WeddingDayMassacre|LongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"Innuendobot 5000", "rate":"50% 50%", "mission":"Learning to Love", "options":"WeddingDayMassacre|LongMission|UniqueEnemy|MissionLocation" }
+					],
+					"meos":
+					[
+						{ "type":"Other", "name":"Loot Leprechaun", "rate":"7%", "options":"WeddingDayMassacre|Miscellaneous" }
+					]
+				}
+			]
+		},
+		{
+			"name":"SonOfCrawmerax",
+			"maps":
+			[
+				{
+					"name":"Wam Bam Island",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Fun, Sun, and Guns", "giver":"Hammerlock", "options":"SonOfCrawmerax|VeryLongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Victims of Vault Hunters", "giver":"Hammerlock", "options":"SonOfCrawmerax|LongMission" },
+						{ "type":"Enemy", "name":"Son of Crawmerax the Invincible", "rate":"33% 33% 33%", "mission":"Fun, Sun, and Guns", "options":"SonOfCrawmerax|VeryLongMission|UniqueEnemy|MissionLocation" },
+						{ "type":"Enemy", "name":"The Invincible Son of Crawmerax the Invincible", "rate":"100% 100% 100% 50% 50% 50%", "mission":"Fun, Sun, and Guns", "options":"SonOfCrawmerax|UniqueEnemy|Raid" },
+						{ "type":"Enemy", "name":"Sparky, Son of Flynt", "rate":"33%", "mission":"Victims of Vault Hunters", "options":"SonOfCrawmerax|SlowEnemy" }
+					]
+				}
+			]
+		},
+		{
+			"name":"MercenaryDay",
+			"maps":
+			[
+				{
+					"name":"Frost Bottom",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Get Frosty", "giver":"Marcus", "options":"MercenaryDay|VeryLongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"Special Delivery", "giver":"Timothy", "options":"MercenaryDay|ShortMission" },
+						{ "type":"Enemy", "name":"The Abominable Mister Tinder Snowflake", "rate":"33%", "mission":"Get Frosty", "options":"MercenaryDay|SlowEnemy" }
+					]
+				}
+			]
+		},
+		{
+			"name":"DigistructPeak",
+			"maps":
+			[
+				{
+					"name":"Digistruct Peak",
+					"meos":
+					[
+						{ "type":"Mission", "rate":"100%", "name":"Dr. T and the Vault Hunters", "giver":"Tannis", "options":"DigistructPeak|ShortMission" },
+						{ "type":"Mission", "rate":"100%", "name":"A History of Simulated Violence", "giver":"Tannis", "options":"DigistructPeak|VeryLongMission" },
+						{ "type":"Mission", "rate":"100%", "name":"More History of Simulated Violence", "giver":"Tannis", "options":"DigistructPeak|VeryLongMission" },
+						{ "type":"Enemy", "name":"Digistruct Assassin Wot", "rate":"100% 100% 50%", "mission":"A History of Simulated Violence", "options":"DigistructPeak|DigistructEnemy" },
+						{ "type":"Enemy", "name":"Digistruct Assassin Oney", "rate":"100% 100% 50%", "mission":"A History of Simulated Violence", "options":"DigistructPeak|DigistructEnemy" },
+						{ "type":"Enemy", "name":"Digistruct Assassin Reeth", "rate":"100% 100% 50%", "mission":"A History of Simulated Violence", "options":"DigistructPeak|DigistructEnemy" },
+						{ "type":"Enemy", "name":"Digistruct Assassin Rouf", "rate":"100% 100% 50%", "mission":"A History of Simulated Violence", "options":"DigistructPeak|DigistructEnemy" },
+						{ "type":"Enemy", "name":"Digistruct Scorch", "rate":"50% 50%", "mission":"A History of Simulated Violence", "options":"DigistructPeak|DigistructEnemy" },
+						{ "type":"Enemy", "name":"Digistruct Black Queen", "rate":"100% 33%", "mission":"A History of Simulated Violence", "options":"DigistructPeak|DigistructEnemy" },
+						{ "type":"Enemy", "name":"Bone Head v3.0", "rate":"50% 50%", "mission":"A History of Simulated Violence", "options":"DigistructPeak|DigistructEnemy" },
+						{ "type":"Enemy", "name":"Digistruct Doc Mercy", "rate":"100% 50%", "mission":"A History of Simulated Violence", "options":"DigistructPeak|DigistructEnemy" },
+						{ "type":"Enemy", "name":"Digistruct Dukino's Mom", "rate":"100% 33% 33%", "mission":"A History of Simulated Violence", "options":"DigistructPeak|DigistructEnemy" },
+						{ "type":"Enemy", "name":"010011110100110101000111-010101110101010001001000", "rate":"100% 100% 100% 50% 50% 50% 33% 33% 33%", "mission":"A History of Simulated Violence", "options":"DigistructPeak|DigistructEnemy" },
+						{ "type":"Enemy", "name":"Saturn v2.0", "rate":"100% 100% 50% 50%", "mission":"A History of Simulated Violence", "options":"DigistructPeak|DigistructEnemy" }
+					]
+				}
+			]
+		}
+	],
+    "loots":
+	[
+		{ "type":"Assault Rifle", "name":"Bandit Assault Rifle", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Dahl Assault Rifle", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Jakobs Assault Rifle", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Torgue Assault Rifle", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Vladof Assault Rifle", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"E-tech Assault Rifle", "rarity":"E-tech", "options":"BaseGame", "hint":"E-tech Weapon" },
+		{ "type":"Assault Rifle", "name":"Gearbox Assault Rifle", "rarity":"White", "options":"BaseGame", "hint":"Unique Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Hail", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Scorpio", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Evil Smasher", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Stomper", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Madhous!", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Hammer Buster", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Veruc", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"KerBlaster", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Shredifier", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Stinkpot", "rarity":"Rare", "options":"PiratesBooty", "hint":"Unique Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Seraphim", "rarity":"Seraph", "options":"PiratesBooty", "hint":"Seraph Weapon" },
+		{ "type":"Assault Rifle", "name":"Rapier", "rarity":"Rare", "options":"PiratesBooty", "hint":"Unique Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Boom Puppy", "rarity":"Rare", "options":"CampaignOfCarnage", "hint":"Unique Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Kitten", "rarity":"Rare", "options":"CampaignOfCarnage", "hint":"Unique Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Lead Storm", "rarity":"Seraph", "options":"HammerlocksHunt", "hint":"Seraph Weapon" },
+		{ "type":"Assault Rifle", "name":"Damned Cowboy", "rarity":"Rare", "options":"HammerlocksHunt", "hint":"Unique Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"CHOPPER", "rarity":"Rare", "options":"HammerlocksHunt", "hint":"Unique Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Ogre", "rarity":"Legendary", "options":"DragonKeep", "hint":"Legendary Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Seeker", "rarity":"Seraph", "options":"DragonKeep", "hint":"Seraph Weapon" },
+		{ "type":"Assault Rifle", "name":"M2828 Thumpson", "rarity":"Legendary", "options":"FightForSanctuary", "hint":"Legendary Assault Rifle" },
+		{ "type":"Assault Rifle", "name":"Peak Opener", "rarity":"Effervescent", "options":"FightForSanctuary", "hint":"Effervescent Weapon" },
+		{ "type":"Assault Rifle", "name":"Toothpick", "rarity":"Effervescent", "options":"FightForSanctuary", "hint":"Effervescent Weapon" },
+		{ "type":"Assault Rifle", "name":"Sawbar", "rarity":"Pearlescent", "options":"UVHMPack", "hint":"Pearlescent Weapon" },
+		{ "type":"Assault Rifle", "name":"Bearcat", "rarity":"Pearlescent", "options":"UVHMPack", "hint":"Pearlescent Weapon" },
+		{ "type":"Assault Rifle", "name":"Bekah", "rarity":"Pearlescent", "options":"DigistructPeak", "hint":"Pearlescent Weapon" },
+		{ "type":"Launcher", "name":"Bandit Rocket Launcher", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Rocket Launcher" },
+		{ "type":"Launcher", "name":"Tediore Rocket Launcher", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Rocket Launcher" },
+		{ "type":"Launcher", "name":"Vladof Rocket Launcher", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Rocket Launcher" },
+		{ "type":"Launcher", "name":"Maliwan Rocket Launcher", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Rocket Launcher" },
+		{ "type":"Launcher", "name":"Torgue Rocket Launcher", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Rocket Launcher" },
+		{ "type":"Launcher", "name":"E-tech Rocket Launcher", "rarity":"E-tech", "options":"BaseGame", "hint":"E-tech Weapon" },
+		{ "type":"Launcher", "name":"Hive", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Rocket Launcher" },
+		{ "type":"Launcher", "name":"Creamer", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Rocket Launcher" },
+		{ "type":"Launcher", "name":"Roaster", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Rocket Launcher" },
+		{ "type":"Launcher", "name":"Nukem", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Rocket Launcher" },
+		{ "type":"Launcher", "name":"Pyrophobia", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Rocket Launcher" },
+		{ "type":"Launcher", "name":"Bunny", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Rocket Launcher" },
+		{ "type":"Launcher", "name":"Badaboom", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Rocket Launcher" },
+		{ "type":"Launcher", "name":"Mongol", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Rocket Launcher" },
+		{ "type":"Launcher", "name":"Norfleet", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Rocket Launcher" },
+		{ "type":"Launcher", "name":"12 Pounder", "rarity":"Rare", "options":"PiratesBooty", "hint":"Unique Rocket Launcher" },
+		{ "type":"Launcher", "name":"Ahab", "rarity":"Seraph", "options":"PiratesBooty", "hint":"Seraph Weapon" },
+		{ "type":"Launcher", "name":"World Burn", "rarity":"Effervescent", "options":"FightForSanctuary", "hint":"Effervescent Weapon" },
+		{ "type":"Launcher", "name":"Tunguska", "rarity":"Pearlescent", "options":"UVHMPack", "hint":"Pearlescent Weapon" },
+		{ "type":"Pistol", "name":"Bandit Pistol", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Pistol" },
+		{ "type":"Pistol", "name":"Tediore Pistol", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Pistol" },
+		{ "type":"Pistol", "name":"Dahl Pistol", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Pistol" },
+		{ "type":"Pistol", "name":"Vladof Pistol", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Pistol" },
+		{ "type":"Pistol", "name":"Torgue Pistol", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Pistol" },
+		{ "type":"Pistol", "name":"Maliwan Pistol", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Pistol" },
+		{ "type":"Pistol", "name":"Jakobs Pistol", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Pistol" },
+		{ "type":"Pistol", "name":"Hyperion Pistol", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Pistol" },
+		{ "type":"Pistol", "name":"E-tech Pistol", "rarity":"E-tech", "options":"BaseGame", "hint":"E-tech Weapon" },
+		{ "type":"Pistol", "name":"Gwen's Head", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Judge", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Tinderbox", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Law", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Teapot", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Shotgun Fibber", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Ricochet Fibber", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Crit Fibber", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Rubi", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Veritas", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Dahlminator", "rarity":"E-tech", "options":"BaseGame", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Lady Fist", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Thunderball Fists", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Pistol" },
+		{ "type":"Pistol", "name":"Hornet", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Pistol" },
+		{ "type":"Pistol", "name":"Gub", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Pistol" },
+		{ "type":"Pistol", "name":"Maggie", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Pistol" },
+		{ "type":"Pistol", "name":"Infinity", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Pistol" },
+		{ "type":"Pistol", "name":"Gunerang", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Pistol" },
+		{ "type":"Pistol", "name":"Unkempt Harold", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Pistol" },
+		{ "type":"Pistol", "name":"Logan's Gun", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Pistol" },
+		{ "type":"Pistol", "name":"Greed", "rarity":"Rare", "options":"PiratesBooty", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Little Evie", "rarity":"Rare", "options":"PiratesBooty", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Devastator", "rarity":"Seraph", "options":"PiratesBooty", "hint":"Seraph Weapon" },
+		{ "type":"Pistol", "name":"Pocket Rocket", "rarity":"Rare", "options":"CampaignOfCarnage", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Infection", "rarity":"Seraph", "options":"HammerlocksHunt", "hint":"Seraph Weapon" },
+		{ "type":"Pistol", "name":"Rex", "rarity":"Rare", "options":"HammerlocksHunt", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Grog Nozzle", "rarity":"Rare", "options":"DragonKeep", "hint":"Unique Pistol" },
+		{ "type":"Pistol", "name":"Stinger", "rarity":"Seraph", "options":"DragonKeep", "hint":"Seraph Weapon" },
+		{ "type":"Pistol", "name":"Hector's Paradise", "rarity":"Legendary", "options":"FightForSanctuary", "hint":"Legendary Pistol" },
+		{ "type":"Pistol", "name":"Wanderlust", "rarity":"Pearlescent", "options":"DigistructPeak", "hint":"Pearlescent Weapon" },
+		{ "type":"Pistol", "name":"Unforgiven", "rarity":"Pearlescent", "options":"UVHMPack", "hint":"Pearlescent Weapon" },
+		{ "type":"Pistol", "name":"Stalker", "rarity":"Pearlescent", "options":"UVHMPack", "hint":"Pearlescent Weapon" },
+		{ "type":"Shotgun", "name":"Bandit Shotgun", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Shotgun" },
+		{ "type":"Shotgun", "name":"Tediore Shotgun", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Shotgun" },
+		{ "type":"Shotgun", "name":"Torgue Shotgun", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Shotgun" },
+		{ "type":"Shotgun", "name":"Jakobs Shotgun", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Shotgun" },
+		{ "type":"Shotgun", "name":"Hyperion Shotgun", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Shotgun" },
+		{ "type":"Shotgun", "name":"E-tech Shotgun", "rarity":"E-tech", "options":"BaseGame", "hint":"E-tech Weapon" },
+		{ "type":"Shotgun", "name":"Dog", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Teeth of Terramorphous", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Blockhead", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Landscaper", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Triquetra", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Heart Breaker", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Octo", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"RokSalt", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Shotgun 1340", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Tidal Wave", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Sledge's Shotgun", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shotgun" },
+		{ "type":"Shotgun", "name":"Striker", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shotgun" },
+		{ "type":"Shotgun", "name":"Deliverance", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shotgun" },
+		{ "type":"Shotgun", "name":"Flakker", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shotgun" },
+		{ "type":"Shotgun", "name":"Conference Call", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shotgun" },
+		{ "type":"Shotgun", "name":"Retcher", "rarity":"Seraph", "options":"PiratesBooty", "hint":"Seraph Weapon" },
+		{ "type":"Shotgun", "name":"Jolly Roger", "rarity":"Rare", "options":"PiratesBooty", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Orphan Maker", "rarity":"Rare", "options":"PiratesBooty", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Slow Hand", "rarity":"E-tech", "options":"CampaignOfCarnage", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Interfacer", "rarity":"Seraph", "options":"HammerlocksHunt", "hint":"Seraph Weapon" },
+		{ "type":"Shotgun", "name":"Hydra", "rarity":"Rare", "options":"HammerlocksHunt", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Twister", "rarity":"Rare", "options":"HammerlocksHunt", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Omen", "rarity":"Seraph", "options":"DragonKeep", "hint":"Seraph Weapon" },
+		{ "type":"Shotgun", "name":"SWORDSPLOSION!!!", "rarity":"E-tech", "options":"DragonKeep", "hint":"Unique Shotgun" },
+		{ "type":"Shotgun", "name":"Unicornsplosion", "rarity":"E-tech", "options":"FightForSanctuary", "hint":"Effervescent Weapon" },
+		{ "type":"Shotgun", "name":"Overcompensator", "rarity":"Legendary", "options":"FightForSanctuary", "hint":"Legendary Shotgun" },
+		{ "type":"Shotgun", "name":"Butcher", "rarity":"Pearlescent", "options":"UVHMPack", "hint":"Pearlescent Weapon" },
+		{ "type":"Shotgun", "name":"Carnage", "rarity":"Pearlescent", "options":"DigistructPeak", "hint":"Pearlescent Weapon" },
+		{ "type":"SMG", "name":"Bandit SMG", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple SMG" },
+		{ "type":"SMG", "name":"Tediore SMG", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple SMG" },
+		{ "type":"SMG", "name":"Dahl SMG", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple SMG" },
+		{ "type":"SMG", "name":"Maliwan SMG", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple SMG" },
+		{ "type":"SMG", "name":"Hyperion SMG", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple SMG" },
+		{ "type":"SMG", "name":"E-tech SMG", "rarity":"E-tech", "options":"BaseGame", "hint":"E-tech Weapon" },
+		{ "type":"SMG", "name":"Gearbox SMG", "rarity":"White", "options":"BaseGame", "hint":"Unique SMG" },
+		{ "type":"SMG", "name":"Lascaux", "rarity":"Rare", "options":"BaseGame", "hint":"Unique SMG" },
+		{ "type":"SMG", "name":"Bad Touch", "rarity":"Rare", "options":"BaseGame", "hint":"Unique SMG" },
+		{ "type":"SMG", "name":"Good Touch", "rarity":"Rare", "options":"BaseGame", "hint":"Unique SMG" },
+		{ "type":"SMG", "name":"Commerce", "rarity":"Rare", "options":"BaseGame", "hint":"Unique SMG" },
+		{ "type":"SMG", "name":"Bone Shredder", "rarity":"Rare", "options":"BaseGame", "hint":"Unique SMG" },
+		{ "type":"SMG", "name":"Chulainn", "rarity":"Rare", "options":"BaseGame", "hint":"Unique SMG" },
+		{ "type":"SMG", "name":"Bane", "rarity":"Rare", "options":"BaseGame", "hint":"Unique SMG" },
+		{ "type":"SMG", "name":"Bitch", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary SMG" },
+		{ "type":"SMG", "name":"Emperor", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary SMG" },
+		{ "type":"SMG", "name":"Baby Maker", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary SMG" },
+		{ "type":"SMG", "name":"Hellfire", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary SMG" },
+		{ "type":"SMG", "name":"Slagga", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary SMG" },
+		{ "type":"SMG", "name":"Tattler", "rarity":"Seraph", "options":"PiratesBooty", "hint":"Seraph Weapon" },
+		{ "type":"SMG", "name":"Actualizer", "rarity":"Seraph", "options":"PiratesBooty", "hint":"Seraph Weapon" },
+		{ "type":"SMG", "name":"Sand Hawk", "rarity":"Rare", "options":"PiratesBooty", "hint":"Unique SMG" },
+		{ "type":"SMG", "name":"Yellow Jacket", "rarity":"E-tech", "options":"HammerlocksHunt", "hint":"Unique SMG" },
+		{ "type":"SMG", "name":"Crit", "rarity":"Rare", "options":"DragonKeep", "hint":"Unique SMG" },
+		{ "type":"SMG", "name":"Florentine", "rarity":"Seraph", "options":"DragonKeep", "hint":"Seraph Weapon" },
+		{ "type":"SMG", "name":"Orc", "rarity":"Epic", "options":"DragonKeep", "hint":"Unique SMG" },
+		{ "type":"SMG", "name":"Nirvana", "rarity":"Effervescent", "options":"FightForSanctuary", "hint":"Effervescent Weapon" },
+		{ "type":"SMG", "name":"Infection Cleaner", "rarity":"Effervescent", "options":"FightForSanctuary", "hint":"Seraph Weapon" },
+		{ "type":"SMG", "name":"Avenger", "rarity":"Pearlescent", "options":"UVHMPack", "hint":"Pearlescent Weapon" },
+		{ "type":"Sniper Rifle", "name":"Dahl Sniper Rifle", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Vladof Sniper Rifle", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Maliwan Sniper Rifle", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Jakobs Sniper Rifle", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Hyperion Sniper Rifle", "rarity":"Epic", "options":"BaseGame|DragonKeep", "hint":"Purple Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"E-tech Sniper Rifle", "rarity":"E-tech", "options":"BaseGame", "hint":"E-tech Weapon" },
+		{ "type":"Sniper Rifle", "name":"Gearbox Sniper Rifle", "rarity":"White", "options":"BaseGame", "hint":"Unique Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Fremington's Edge", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Buffalo", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Trespasser", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Sloth", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Morningstar", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Chère-amie", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Lyudmila", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Skullmasher", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Invader", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Pitchfork", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Volcano", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Longbow", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Patriot", "rarity":"Seraph", "options":"PiratesBooty", "hint":"Seraph Weapon" },
+		{ "type":"Sniper Rifle", "name":"Pimpernel", "rarity":"Rare", "options":"PiratesBooty", "hint":"Unique Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Cobra", "rarity":"Rare", "options":"CampaignOfCarnage", "hint":"Unique Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Hawk Eye", "rarity":"Seraph", "options":"HammerlocksHunt", "hint":"Seraph Weapon" },
+		{ "type":"Sniper Rifle", "name":"Elephant Gun", "rarity":"Rare", "options":"HammerlocksHunt", "hint":"Unique Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Hot Mama", "rarity":"Effervescent", "options":"FightForSanctuary", "hint":"Effervescent Weapon" },
+		{ "type":"Sniper Rifle", "name":"Amigo Sincero", "rarity":"Legendary", "options":"FightForSanctuary", "hint":"Legendary Sniper Rifle" },
+		{ "type":"Sniper Rifle", "name":"Storm", "rarity":"Pearlescent", "options":"UVHMPack", "hint":"Pearlescent Weapon" },
+		{ "type":"Sniper Rifle", "name":"Godfinger", "rarity":"Pearlescent", "options":"DigistructPeak", "hint":"Pearlescent Weapon" },
+		{ "type":"COM", "name":"Blue Infiltrator / Beast / Banshee / Engineer / Slab / Roboteer", "rarity":"Rare", "options":"BaseGame", "hint":"Blue Class Mod" },
+		{ "type":"COM", "name":"Blue Killer / Berserker / Binder / Grenadier / Meat / Zapper", "rarity":"Rare", "options":"BaseGame", "hint":"Blue Class Mod" },
+		{ "type":"COM", "name":"Blue Ninja / War Dog / Cat / Gunner / Crunch / Jill of All Trades", "rarity":"Rare", "options":"BaseGame", "hint":"Blue Class Mod" },
+		{ "type":"COM", "name":"Blue Professional / Devastator / Fox / Pointman / Toast / Punk", "rarity":"Rare", "options":"BaseGame", "hint":"Blue Class Mod" },
+		{ "type":"COM", "name":"Blue Shot / Raider / Matriarch / Rifleman / Torch / Anarchist", "rarity":"Rare", "options":"BaseGame", "hint":"Blue Class Mod" },
+		{ "type":"COM", "name":"Blue Sniper / Renegade / Nurse / Shock Trooper / Sickle / Technophile", "rarity":"Rare", "options":"BaseGame", "hint":"Blue Class Mod" },
+		{ "type":"COM", "name":"Blue Spy / Tank / Trickster / Specialist / Wound / Prodigy", "rarity":"Rare", "options":"BaseGame", "hint":"Blue Class Mod" },
+		{ "type":"COM", "name":"Blue Stalker / Titan / Warder / Tactician / Blister / Catalyst", "rarity":"Rare", "options":"BaseGame", "hint":"Blue Class Mod" },
+		{ "type":"COM", "name":"Blue Survivor / Hoarder / Witch / Veteran / Reaper / Sweetheart", "rarity":"Rare", "options":"BaseGame", "hint":"Blue Class Mod" },
+		{ "type":"COM", "name":"Purple Infiltrator / Beast / Banshee / Engineer / Slab / Roboteer", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Class Mod" },
+		{ "type":"COM", "name":"Purple Killer / Berserker / Binder / Grenadier / Meat / Zapper", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Class Mod" },
+		{ "type":"COM", "name":"Purple Ninja / War Dog / Cat / Gunner / Crunch / Jill of All Trades", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Class Mod" },
+		{ "type":"COM", "name":"Purple Professional / Devastator / Fox / Pointman / Toast / Punk", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Class Mod" },
+		{ "type":"COM", "name":"Purple Shot / Raider / Matriarch / Rifleman / Torch / Anarchist", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Class Mod" },
+		{ "type":"COM", "name":"Purple Sniper / Renegade / Nurse / Shock Trooper / Sickle / Technophile", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Class Mod" },
+		{ "type":"COM", "name":"Purple Spy / Tank / Trickster / Specialist / Wound / Prodigy", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Class Mod" },
+		{ "type":"COM", "name":"Purple Stalker / Titan / Warder / Tactician / Blister / Catalyst", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Class Mod" },
+		{ "type":"COM", "name":"Purple Survivor / Hoarder / Witch / Veteran / Reaper / Sweetheart", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Class Mod" },
+		{ "type":"COM", "name":"Blue Rogue / Monk / Cleric / Ranger / Barbarian / Necromancer", "rarity":"Rare", "options":"DragonKeep", "hint":"Blue Class Mod" },
+		{ "type":"COM", "name":"Purple Rogue / Monk / Cleric / Ranger / Barbarian / Necromancer", "rarity":"Epic", "options":"DragonKeep", "hint":"Purple Class Mod" },
+		{ "type":"COM", "name":"Legendary Hunter / Berserker / Siren / Soldier / Psycho / Mechromancer", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Class Mod" },
+		{ "type":"COM", "name":"Slayer Of Terramorphous", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Class Mod" },
+		{ "type":"COM", "name":"Legendary Killer / Gunzerker / Binder / Engineer / Sickle / Anarchist", "rarity":"Legendary", "options":"DigistructPeak", "hint":"Legendary Class Mod" },
+		{ "type":"COM", "name":"Legendary Ninja / Hoarder / Cat / Pointman / Torch / Catalyst", "rarity":"Legendary", "options":"DigistructPeak", "hint":"Legendary Class Mod" },
+		{ "type":"COM", "name":"Legendary Sniper / Titan / Nurse / Ranger / Reaper / Roboteer", "rarity":"Legendary", "options":"DigistructPeak", "hint":"Legendary Class Mod" },
+		{ "type":"Relic", "name":"Aggression Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Elemental Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Proficiency Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Protection Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Resistance Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Stockpile Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Strength Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Tenacity Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Vitality Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Bandit Allegiance Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Dahl Allegiance Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Hyperion Allegiance Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Jakobs Allegiance Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Maliwan Allegiance Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Tediore Allegiance Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Torgue Allegiance Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"Vladof Allegiance Relic", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Relic" },
+		{ "type":"Relic", "name":"The Afterburner", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Relic" },
+		{ "type":"Relic", "name":"Deputy's Badge", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Relic" },
+		{ "type":"Relic", "name":"Moxxi's Endowment", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Relic" },
+		{ "type":"Relic", "name":"Lucrative Opportunity", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Relic" },
+		{ "type":"Relic", "name":"Sheriff's Badge", "rarity":"Epic", "options":"BaseGame", "hint":"Unique Relic" },
+		{ "type":"Relic", "name":"Blood of Terramorphous", "rarity":"Legendary", "options":"BaseGame", "hint":"Unique Relic" },
+		{ "type":"Relic", "name":"Vault Hunter's Relic", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Relic" },
+		{ "type":"Relic", "name":"Captain Blade's Otto Idol", "rarity":"Rare", "options":"PiratesBooty", "hint":"Unique Relic" },
+		{ "type":"Relic", "name":"Blood of the Seraphs", "rarity":"Seraph", "options":"PiratesBooty", "hint":"Seraph Item" },
+		{ "type":"Relic", "name":"Might of the Seraphs", "rarity":"Seraph", "options":"CampaignOfCarnage", "hint":"Seraph Item" },
+		{ "type":"Relic", "name":"Breath of the Seraphs", "rarity":"Seraph", "options":"HammerlocksHunt", "hint":"Seraph Item" },
+		{ "type":"Relic", "name":"Mysterious Amulet", "rarity":"Rare", "options":"DragonKeep", "hint":"Unique Relic" },
+		{ "type":"Relic", "name":"Shadow of the Seraphs", "rarity":"Seraph", "options":"DragonKeep", "hint":"Seraph Item" },
+		{ "type":"Relic", "name":"Winter is Over", "rarity":"Epic", "options":"FightForSanctuary", "hint":"Unique Relic" },
+		{ "type":"Relic", "name":"Hard Carry", "rarity":"Effervescent", "options":"FightForSanctuary", "hint":"Effervescent Item" },
+		{ "type":"Relic", "name":"Mouthwash", "rarity":"Effervescent", "options":"FightForSanctuary", "hint":"Effervescent Item" },
+		{ "type":"Relic", "name":"Heart of the Ancients", "rarity":"E-tech", "options":"UVHMPack", "hint":"E-tech Relic" },
+		{ "type":"Relic", "name":"Bone of the Ancients", "rarity":"E-tech", "options":"UVHMPack", "hint":"E-tech Relic" },
+		{ "type":"Relic", "name":"Skin of the Ancients", "rarity":"E-tech", "options":"UVHMPack", "hint":"E-tech Relic" },
+		{ "type":"Relic", "name":"Blood of the Ancients", "rarity":"E-tech", "options":"UVHMPack", "hint":"E-tech Relic" },
+		{ "type":"Grenade", "name":"Fire Burst / Tesla / Corrosive Cloud", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Grenade" },
+		{ "type":"Grenade", "name":"Bouncing Betty", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Grenade" },
+		{ "type":"Grenade", "name":"Jumpin Biddy", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Grenade" },
+		{ "type":"Grenade", "name":"MIRV", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Grenade" },
+		{ "type":"Grenade", "name":"Mruv / Mrvur / Murrv / Muvr / Muvv", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Grenade" },
+		{ "type":"Grenade", "name":"Singularity", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Grenade" },
+		{ "type":"Grenade", "name":"Grenade", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Grenade" },
+		{ "type":"Grenade", "name":"gurnade", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Grenade" },
+		{ "type":"Grenade", "name":"Transfusion", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Grenade" },
+		{ "type":"Grenade", "name":"Fuster Cluck", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Grenade" },
+		{ "type":"Grenade", "name":"Kiss of Death", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Grenade" },
+		{ "type":"Grenade", "name":"Sky Rocket", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Grenade" },
+		{ "type":"Grenade", "name":"Breath of Terramorphous", "rarity":"E-tech", "options":"BaseGame", "hint":"Unique Grenade" },
+		{ "type":"Grenade", "name":"Bonus Package", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Grenade" },
+		{ "type":"Grenade", "name":"Bouncing Bonny", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Grenade" },
+		{ "type":"Grenade", "name":"Fastball", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Grenade" },
+		{ "type":"Grenade", "name":"Fire Bee", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Grenade" },
+		{ "type":"Grenade", "name":"Leech", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Grenade" },
+		{ "type":"Grenade", "name":"Nasty Surprise", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Grenade" },
+		{ "type":"Grenade", "name":"Pandemic", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Grenade" },
+		{ "type":"Grenade", "name":"Quasar", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Grenade" },
+		{ "type":"Grenade", "name":"Rolling Thunder", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Grenade" },
+		{ "type":"Grenade", "name":"Storm Front", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Grenade" },
+		{ "type":"Grenade", "name":"Midnight Star", "rarity":"Rare", "options":"PiratesBooty", "hint":"Unique Grenade" },
+		{ "type":"Grenade", "name":"Crossfire", "rarity":"Seraph", "options":"CampaignOfCarnage", "hint":"Seraph Item" },
+		{ "type":"Grenade", "name":"Meteor Shower", "rarity":"Seraph", "options":"CampaignOfCarnage", "hint":"Seraph Item" },
+		{ "type":"Grenade", "name":"O-Negative", "rarity":"Seraph", "options":"CampaignOfCarnage", "hint":"Seraph Item" },
+		{ "type":"Grenade", "name":"Chain Lightning", "rarity":"Legendary", "options":"DragonKeep", "hint":"Legendary Grenade" },
+		{ "type":"Grenade", "name":"Fireball", "rarity":"Rare", "options":"DragonKeep", "hint":"Unique Grenade" },
+		{ "type":"Grenade", "name":"Fire Storm", "rarity":"Legendary", "options":"DragonKeep", "hint":"Legendary Grenade" },
+		{ "type":"Grenade", "name":"Lightning Bolt", "rarity":"Rare", "options":"DragonKeep", "hint":"Unique Grenade" },
+		{ "type":"Grenade", "name":"Blue Magic Missile", "rarity":"Rare", "options":"DragonKeep", "hint":"Unique Grenade" },
+		{ "type":"Grenade", "name":"Purple Magic Missile", "rarity":"Epic", "options":"DragonKeep", "hint":"Unique Grenade" },
+		{ "type":"Grenade", "name":"Antifection", "rarity":"Effervescent", "options":"FightForSanctuary", "hint":"Effervescent Item" },
+		{ "type":"Grenade", "name":"The Electric Chair", "rarity":"Effervescent", "options":"FightForSanctuary", "hint":"Effervescent Item" },
+		{ "type":"Shield", "name":"Shield", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Shield" },
+		{ "type":"Shield", "name":"Absorb Shield", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Shield" },
+		{ "type":"Shield", "name":"Adaptive Shield", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Shield" },
+		{ "type":"Shield", "name":"Amplify Shield", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Shield" },
+		{ "type":"Shield", "name":"Booster Shield", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Shield" },
+		{ "type":"Shield", "name":"Maylay Shield", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Shield" },
+		{ "type":"Shield", "name":"Nova Shield", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Shield" },
+		{ "type":"Shield", "name":"Spike Shield", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Shield" },
+		{ "type":"Shield", "name":"Turtle Shield", "rarity":"Epic", "options":"BaseGame", "hint":"Purple Shield" },
+		{ "type":"Shield", "name":"1340 Shield", "rarity":"Rare", "options":"BaseGame", "hint":"Purple Shield" },
+		{ "type":"Shield", "name":"Aequitas", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shield" },
+		{ "type":"Shield", "name":"Pot O' Gold", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shield" },
+		{ "type":"Shield", "name":"Deadly Bloom", "rarity":"Epic", "options":"BaseGame", "hint":"Unique Shield" },
+		{ "type":"Shield", "name":"Order", "rarity":"Rare", "options":"BaseGame", "hint":"Unique Shield" },
+		{ "type":"Shield", "name":"Cracked Sash", "rarity":"Epic", "options":"BaseGame", "hint":"Unique Shield" },
+		{ "type":"Shield", "name":"Love Thumper", "rarity":"Epic", "options":"BaseGame", "hint":"Unique Shield" },
+		{ "type":"Shield", "name":"The Sham", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shield" },
+		{ "type":"Shield", "name":"The Transformer", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shield" },
+		{ "type":"Shield", "name":"Whisky Tango Foxtrot", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shield" },
+		{ "type":"Shield", "name":"Neogenator", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shield" },
+		{ "type":"Shield", "name":"The Bee", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shield" },
+		{ "type":"Shield", "name":"Fabled Tortoise", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shield" },
+		{ "type":"Shield", "name":"Flame of the Firehawk", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shield" },
+		{ "type":"Shield", "name":"Black Hole", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shield" },
+		{ "type":"Shield", "name":"Hide of Terramorphous", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shield" },
+		{ "type":"Shield", "name":"Impaler", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shield" },
+		{ "type":"Shield", "name":"The Cradle", "rarity":"Legendary", "options":"BaseGame", "hint":"Legendary Shield" },
+		{ "type":"Shield", "name":"Evolution", "rarity":"Seraph", "options":"PiratesBooty", "hint":"Seraph Item" },
+		{ "type":"Shield", "name":"Manly Man Shield", "rarity":"Rare", "options":"PiratesBooty", "hint":"Purple Shield" },
+		{ "type":"Shield", "name":"Big Boom Blaster", "rarity":"Seraph", "options":"CampaignOfCarnage", "hint":"Seraph Item" },
+		{ "type":"Shield", "name":"Hoplite", "rarity":"Seraph", "options":"CampaignOfCarnage", "hint":"Seraph Item" },
+		{ "type":"Shield", "name":"Pun-chee", "rarity":"Seraph", "options":"CampaignOfCarnage", "hint":"Seraph Item" },
+		{ "type":"Shield", "name":"Sponge", "rarity":"Seraph", "options":"CampaignOfCarnage", "hint":"Seraph Item" },
+		{ "type":"Shield", "name":"The Rough Rider", "rarity":"Rare", "options":"HammerlocksHunt", "hint":"Unique Shield" },
+		{ "type":"Shield", "name":"Blockade", "rarity":"Seraph", "options":"DragonKeep", "hint":"Seraph Item" },
+		{ "type":"Shield", "name":"Antagonist", "rarity":"Seraph", "options":"DragonKeep", "hint":"Seraph Item" },
+		{ "type":"Shield", "name":"Retainer", "rarity":"Effervescent", "options":"FightForSanctuary", "hint":"Effervescent Item" },
+		{ "type":"Shield", "name":"Easy Mode", "rarity":"Effervescent", "options":"FightForSanctuary", "hint":"Effervescent Item" }
+	]
+}
