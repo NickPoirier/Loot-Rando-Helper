@@ -13,22 +13,13 @@ public class Tracker
 
     public Tracker(string seedsPath)
     {
-        try
-        {
-            _settings = JsonSerializer.Deserialize<Settings>(File.ReadAllText(SETTINGS_FILE));
-        }
-        catch (Exception)
-        {
-            _settings = new Settings();
-        }
+        _settings = JsonSerializer.Deserialize<Settings>(File.ReadAllText(SETTINGS_FILE)) ?? new Settings();
         
         _seedsPath = seedsPath;
         
         _watcher = new FileSystemWatcher(_seedsPath);
         _watcher.Created += WatcherEvent;
         _watcher.Changed += WatcherEvent;
-
-        CheckExistingSeeds();
     }
 
     public void SetToken(string token)
@@ -45,6 +36,7 @@ public class Tracker
         }
         
         _watcher.EnableRaisingEvents = true;
+        CheckExistingSeeds();
         return true;
     }
     
@@ -121,7 +113,7 @@ public class Tracker
 
             _settings.Gist = new GistInformation {CurrentSeed = seed, Id = result.Id, Url = result.HtmlUrl};
 
-            File.WriteAllText(SETTINGS_FILE, JsonSerializer.Serialize(_settings.Gist, new JsonSerializerOptions(JsonSerializerOptions.Default) {WriteIndented = true}));
+            File.WriteAllText(SETTINGS_FILE, JsonSerializer.Serialize(_settings, new JsonSerializerOptions(JsonSerializerOptions.Default) {WriteIndented = true}));
         }
         catch (Exception exception)
         {
